@@ -1,0 +1,139 @@
+.searchfilter_box{
+    margin-left: 0.14rem;
+    margin-top:0.145rem;
+    margin-bottom: 0.15rem; 
+}
+.searchfilter_box .search_recommend{
+    display: none;
+}
+.searchfilter_box .my_search{
+    display: flex;
+    height: 0.3rem;
+    /*display: flex;
+    align-items: center;*/
+}
+.searchfilter_box .search_more{
+    font-family: PingFangSC-Regular;
+    font-size: 0.15rem;
+    color: #6BA686;
+    line-height: 0.18rem;
+    margin-top:0.265rem;
+}
+.searchfilter_box .search_recommend .search_del{
+    width: 0.165rem;
+    height: 0.18rem;
+    margin-left: 2.38rem;
+}
+.searchfilter_box .search_recommend .search_dell{
+    width: 0.12rem;
+    height: 0.12rem;
+    position: absolute;right: -0.015rem;
+    top: -0.015rem;
+}
+.searchfilter_box .my_search .city{
+font-family: PingFangSC-Regular;
+/*background: #F4F4F5;*/
+background: #fff;
+font-size: 0.12rem;
+color: #222222;
+letter-spacing: 0;
+width: 0.62rem;
+height: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 0.06rem;
+    border-top-left-radius:  0.06rem;
+    border: 1px solid #F4F4F5;
+box-shadow: 0 0.05rem 0.125rem 0 rgba(242,242,242,0.70);
+border-right-width: 0;
+}
+.searchfilter_box .my_search .city img{
+    width: 0.06rem;
+    height: 0.0375rem;
+    margin-left: 0.06rem ;
+}
+.searchfilter_box .my_search .mint-search{
+    width: 2.80rem;
+    height: 100%;
+}
+.searchfilter_box .my_search .mint-searchbar {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px;
+    z-index: 1;
+    background: #fff;
+}
+.searchfilter_box .my_search .mint-searchbar-inner{
+/*    background: #F4F4F5;*/
+    border: 1px solid #F4F4F5;
+    box-shadow: 0 0.05rem 0.125rem 0 rgba(242,242,242,0.70);
+    border-radius: 0.06rem;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 0px;
+    
+    border-left-width: 0px;
+        border-bottom: 0px;
+        height: 0.29rem;
+
+}
+.searchfilter_box .my_search .mint-searchbar-cancel{
+    font-family: PingFangSC-Regular;
+font-size: 0.14rem;
+color: #333333;
+letter-spacing: 0;
+width: 0.62rem;
+height: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+.searchfilter_box .my_search .mint-searchbar-inner input{
+    font-family: PingFangSC-Regular;
+font-size: 0.12rem;
+color: #CCCCCC;
+background: #fff;
+}
+.searchfilter_box .my_search .mint-searchbar-inner .mintui-search{
+    display: none;
+}
+
+.searchfilter_box .title{
+font-family: PingFangSC-Medium;
+font-size: 0.21rem;
+color: #333333;
+line-height: 0.25rem;
+}
+.searchfilter_box .search_tag{
+margin-top:0.14rem;
+background: #F4F4F5;
+border-radius: 0.5rem;
+min-width: 1.0rem;
+height: 0.31rem;
+margin-right: 0.1rem;
+display: inline-block;
+line-height: 0.31rem;
+text-align: center;
+position: relative;
+font-family: PingFangSC-Regular;
+font-size: 0.13rem;
+color: #646A7D;
+}
+.searchfilter_box .hot{
+    margin-top: 0.5rem;
+}
+.searchfilter_box .local{
+    margin-top: 0.5rem;
+}
+.searchfilter_box .filter{
+    display: flex;
+    width: 0.46rem;
+    align-items: center;
+    justify-content: center;
+}
+.searchfilter_box .filter img{
+    width: 0.18rem;
+    height: 0.18rem;
+}

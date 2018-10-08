@@ -1,0 +1,55 @@
+.home_new .news {
+	margin-left: 0.14rem;
+	margin-top: 0.055rem;
+}
+
+.home_new .item {
+	width: 100%;
+	height: 0.6335rem;
+	margin-top: 0.1rem;
+}
+.home_new .item:last-child {
+	padding-bottom: .2rem;
+}
+
+.itelm:first-child {
+	margin-top: 0;
+}
+
+.home_new .item .item_left {
+	height: .63rem;
+	width: 35%;
+	float: left;
+}
+
+.home_new .item .item_left img {
+	border-radius: .04rem;
+	width: 100%;
+	height: 100%;
+}
+
+.home_new .item .item_right {
+	margin-left: 3%;
+	height: .63rem;
+	width: 62%;
+	float: left;
+}
+
+.home_new .item .item_right .name {
+	font-family: PingFangSC-Semibold;
+	font-size: 0.12rem;
+	color: #373C43;
+	line-height: 0.16rem;
+	margin-top: 0.12rem;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+
+.home_new .item .item_right .time {
+	font-family: PingFangSC-Regular;
+	font-size: 0.11rem;
+	color: #989CA8;
+	line-height: 0.15rem;
+	margin-top: 0.04rem;
+}

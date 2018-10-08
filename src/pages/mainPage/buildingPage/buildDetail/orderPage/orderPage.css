@@ -1,0 +1,115 @@
+.orderPage{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background-image: url('../../../../../../static/assets/img_bg@2x.png');*/
+    background-size: 100%;
+    z-index: 999;
+    background-color:#25b07e;
+    height:110vh;
+}
+.mint-header{
+    border-bottom: none;
+    color: #fff;
+    background-color: transparent;
+}
+h1 {
+    margin: .67em 0;
+}
+label{
+    font-weight: 100;
+    font-size: .12rem;
+}
+.mintui{
+    font-size: .14rem;
+}
+.content-wrap{
+    position: absolute;
+    top: .4rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: .2rem;
+}
+.content{
+    /* height: 5.1rem; */
+    background: #fff;
+    box-shadow: 0 6px 18px 0 rgba(18,165,113,0.35);
+    border-radius: .04rem;
+    padding: .41rem 0;
+    font-size: .12rem;
+}
+.title{
+    color: #333333;
+    font-size: .24rem;
+    line-height: .4rem;
+    margin-bottom: .2rem;
+}
+.input-item{
+    padding: .18rem 0;
+    border-bottom: 1px dashed rgba(204, 204, 204, 0.5);
+    position: relative;
+}
+.span {
+    position: absolute;
+    right: 5%;
+    top: .2rem;
+    color: #ff0204;
+    font-size: .12rem;
+}
+.icon_span {
+    color: #54a72b;
+}
+.input-title{
+    color: #666666;
+    font-size: .12rem;
+    line-height: .16rem;
+}
+.input-item input{
+    border: none;
+    outline: none;
+    font-size: .16rem;
+    line-height: .21rem;
+}
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #C6CAD3;
+}
+.input-item input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #C6CAD3;
+}
+.input-item input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #C6CAD3;
+}
+.input-item input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C6CAD3;
+}
+.get_CAPTCHA{
+    color: #25B07E;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .21rem;
+    font-size: .14rem;
+    float: right;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    vertical-align: text-bottom;
+}
+.submit_btn{
+    font-size: .17rem;
+    color: #FFFFFF;
+    width: 2.95rem;
+    background: #25B07E;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: .04rem;
+    line-height: .45rem;
+}
+.input-item .icon_span {
+		color: #25B07E;
+		font-size: .16rem;
+		font-weight: 600;
+	}

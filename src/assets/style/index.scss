@@ -1,0 +1,136 @@
+html,body{
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+#nav{
+  .bottom-nav{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 0.5rem;
+    border-top: solid thin #dadada;
+    .iconfont{
+      font-size:0.25rem;
+    }
+    .link{
+      height:0.45rem;
+      text-decoration:none;
+      color:#C6CAD3 ;
+    }
+    .router-link-active{
+      color:#373C43!important;
+    }
+  }
+}
+#home{
+  background-color:#fff;
+}
+.maxz-index{
+  z-index:99999;
+}
+.price{
+  font-family:'DINAlternate-Bold';
+}
+#filter{
+  #cityPop{
+    width:100%;
+  }
+}
+#home,#building{
+  #shaixuanPop{
+    width:89vw;
+  }
+  .title_group{
+    font-size: 0.12rem;
+    .more{
+      .more_house{
+        vertical-align:bottom;
+      }
+    }
+    img{
+      vertical-align: middle;
+    }
+  }
+  .building_group{
+    font-size: 0.12rem;
+  }
+  .mint-popup-right{
+    width:100%;
+    font-size: 0.12rem;
+  }
+}
+.zixun_lunbo .zixun_more{
+  line-height:0.15rem;
+}
+.swiper-container{
+  font-size: .12rem;
+  line-height: .4rem;
+
+}
+.swiper-slide{
+  text-align: center;
+}
+.gallery-thumbs .swiper-slide-active{
+  border-bottom: 2px solid #25B07E;
+}
+// .houseTypeDetail .swiper-pagination-bullet {
+//   width: .9rem;
+//   height: .38rem;
+//   line-height: .4rem;
+//   font-size: .16rem;
+//   background: initial;
+//   display: inline-block;
+//   color: #999;
+//   border-radius: inherit;
+//   opacity: 1;
+//   }
+//   .houseTypeDetail .swiper-pagination-bullet-active {
+//     color: #333;
+//     border-bottom: 2px solid #25B07E;
+//   }
+//   .houseTypeDetail .swiper-pagination-bullet:focus{
+//     border: none;
+//   }
+.houseTypePic .swiper-container{
+  height: 100%;
+}
+.houseTypePic  .swiper-button-prev, .houseTypePic  .swiper-button-next {
+  top: 50%;
+  width: .2rem;
+  height: 0.2rem;
+  margin-top: -.1rem;
+  background-size: .2rem .2rem;
+  font-size: .26rem;
+  background: none;
+}
+
+.mint-header-button.is-right .mint-button{
+  margin: 0 .1rem!important;
+}
+//音频 操作
+.wx-audio-content{
+    border:none!important;
+    background-color:rgba(244,244,245,0.35);
+}
+//查看图片操作
+.swiper-pagination-current{
+    font-size: 15px;
+}
+.swiper-pagination-total{
+    font-size: 15px;
+}
+#banner .mint-swipe-indicators .mint-swipe-indicator{
+    border-radius: 0;
+    height: .02rem!important;
+    width:  .08rem!important;
+    background: #ffffff;
+    opacity:1;
+    margin:0 0.03rem!important;
+}
+#banner .is-active{
+    background-color: #25B07E!important;
+}
+.banners .mint-swipe-items-wrap{
+  border-radius: .04rem;
+}

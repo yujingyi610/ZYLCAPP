@@ -1,0 +1,35 @@
+.houseTypePic{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 999;
+}
+.mint-header{
+    /* border-bottom: 1px solid #EAEBED; */
+    color: #fff;
+    background-color: #000;
+}
+h1 {
+    margin: .67em 0;
+}
+label{
+    font-weight: 100;
+    font-size: .12rem;
+}
+.mintui{
+    font-size: .14rem;
+}
+img {
+    width: 100%;
+}
+
+.swipe {
+    position: absolute;
+    top: .4rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

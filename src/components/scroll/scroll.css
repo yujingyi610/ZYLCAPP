@@ -1,0 +1,140 @@
+.building_group {
+  margin-left:0.14rem;
+  /* display: flex; */
+  /* width: 100%; */
+   /*overflow: scroll;*/
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+
+.building_group .building_item {
+  display: inline-block;
+  width: 2.47rem;
+  background: #FFFFFF;
+  margin-top:0.24rem;
+  margin-right: 0.07rem;
+  vertical-align:middle;
+}
+
+.building_group .building_item:first-child {
+  margin-left: 0;
+}
+
+.building_group .building_item:last-child {
+  margin-right: 0.06rem;
+}
+
+.building_group .building_item .building_picture{
+  position: relative;
+  overflow: hidden;
+  width: 2.47rem;
+}
+
+.building_group .building_item .price_bg{
+  font-family: PingFangSC-Regular;
+font-size: 0.12rem;
+color: #333333;
+line-height: 0.16rem;
+margin-top:0.04rem;
+}
+
+.building_group .building_item .unitprice {
+    font-family: PingFangSC-Regular;
+font-size: 0.12rem;
+color: #333333;
+line-height: 0.16rem;
+}
+
+.building_group .building_item .price {
+  font-family: DINAlternate-Bold;
+font-size: 0.18rem;
+color: #333333;
+line-height: 0.22rem;
+}
+
+.building_group .building_item .building_picture img {
+  width: 2.47rem;
+  height: 1.39rem;
+  border-radius:8px ;
+}
+
+.building_group .building_item .building_name{
+  display: flex;
+  align-items: center;
+  position: relative;
+   margin-top: 0.12rem;
+}
+
+.building_group .building_item .building_name .name{
+  display: inline-block;
+  font-family: PingFangSC-Medium;
+font-size: 0.15rem;
+color: #333333;
+line-height: 0.19rem;
+}
+
+.building_group .building_item .building_name .icon_collect{
+  display: inline-block;
+  /* background: url(../../assets/icon-default.png) no-repeat; */
+  width: 0.15rem;
+  height: 0.139rem;
+  margin-left: 0.085rem;
+  background-size: 0.16rem 0.14rem;
+}
+
+.building_group .building_item .building_name .active{
+  /* background: url(../../assets/icon-conern-active.png) no-repeat; */
+}
+
+.building_group .building_item .address {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 1.69rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.12rem;
+  color: #989CA8;
+  line-height: 0.16rem;
+  margin-top:0.04rem;
+}
+
+.building_group .building_item .build-tag{
+  margin-top:0.1rem;
+  overflow-y: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.building_group .building_item .build-tag .my_label{
+  background: rgba(107,166,134,0.10);
+border-radius: 4px;
+display: inline-block;
+height: 0.15rem;
+  font-family: PingFangSC-Regular;
+font-size: 0.11rem;
+color: #6BA686;
+letter-spacing: 0;
+margin-left: 0.105rem;
+height: 0.15rem;
+min-width: 0.5rem;
+align-items: center;
+justify-content: center;
+  text-align: center;
+  line-height: 0.15rem;
+}
+.building_group .building_item .build-tag .my_label:first-child{
+ margin-left: 0px;
+}
+
+.building_group .building_item_more{
+  display: inline-block;
+  width: 0.2rem;
+  white-space: normal;
+}
+.building_group .building_item_more .build_more{
+  display: inline-block;
+    width: 0.1rem;
+    white-space: normal;
+}
